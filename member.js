@@ -1,4 +1,4 @@
-function skillsmember(){
-    var skills = ['Javascript', 'React', 'Node', 'MongoDB'];
-    return skills;
+function skillsmember() {
+  const member = require('./member');
+  member.skills();
 }
