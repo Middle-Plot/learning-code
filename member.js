@@ -1,4 +1,7 @@
-function skillsmember() {
-  const member = require('./member');
-  member.skills();
+function skillsMember() {
+  return {
+    name: 'John Doe',
+    skills: ['JavaScript', 'React', 'Node.js'],
+    age: 30
+  };
 }
